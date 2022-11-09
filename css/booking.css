@@ -77,5 +77,51 @@ a.active,a:hover{
 
 /*** nav bar end ***/
 
+/*** Booking form ***/
+div.elem-group {
+  margin: 20px 0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+}
 
- 
+label.for {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 5px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 400px;
+  padding: 10px;
+  
+}
+
+textarea {
+  height: 250px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  background: #eb3941;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+    
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+  
+}
+/*** Booking form end***/
