@@ -1,13 +1,4 @@
-body{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  font-family: ortica, sans-serif;
-}
-/*nav bar body*/
-  .body {
+.body {
     background-color:#23372e;  
   }
   *{
@@ -17,85 +8,90 @@ body{
     list-style: none;
     box-sizing: border-box;
   }
-  /* nav bar*/
-    nav{
-      background:#23372e;
-      height: 80px;
-      width: 100%;
-      font-family: "Triong", serif;
-    }
+/* nav bar*/
+  nav{
+    background:#23372e;
+    height: 80px;
+    width: 100%;
+    font-family: "Triong", serif;
+  }
+  label.logo{
+    color: #f5ece5;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #f5ece5;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background:#7ab4b9;
+    transition: .5s;
+  }
+  
+  @media (max-width: 952px){
     label.logo{
-      color: #f5ece5;
-      font-size: 35px;
-      line-height: 80px;
-      padding: 0 100px;
-      font-weight: bold;
+      font-size: 30px;
+      padding-left: 50px;
     }
-    nav ul{
-      float: right;
-      margin-right: 20px;
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
     }
     nav ul li{
-      display: inline-block;
-      line-height: 80px;
-      margin: 0 5px;
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
     }
-    av ul li a{
-      color: #f5ece5;
-      font-size: 17px;
-      padding: 7px 13px;
-      border-radius: 3px;
-      text-transform: uppercase;
-    }
-    a.active,a:hover{
-      background:#7ab4b9;
-      transition: .5s;
+    nav ul li a{
+      font-size: 20px;
+      }
     }
   
-    @media (max-width: 952px){
-      label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-      }
-      nav ul li a{
-        font-size: 16px;
-      }
-    }
-    @media (max-width: 858px){
-      .checkbtn{
-        display: block;
-      }
-      ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-      }
-      nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-      }
-      nav ul li a{
-        font-size: 20px;
-      }
-    }
-  /*** nav bar end ***/
+/*** nav bar end ***/
 
 /** meny felles **/   
   .offers {
-    border: 5px solid #b0aca2;
+    border: 5px solid #23372e;
     border-radius: 25px;
     padding: 2px 100px;
     margin: 20px;
   }
-  .section-title {text-align: center; font-size: 35px;
+  .section-title {
+    text-align: center; font-size: 35px;
     padding: 40px;
   }
-  .tid { text-align: center; font-size: 25px;}
+  .tid { 
+    text-align: center; 
+    font-size: 25px;
+  }
 /** meny felles end **/
 
 /** scroll button **/
@@ -108,7 +104,7 @@ body{
     font-size: 18px;
     border: none;
     outline: none;
-    background:#45523e;
+    background:#23372e;
     color: white;
     cursor: pointer; 
     padding: 15px;
@@ -127,7 +123,7 @@ body{
     width: 33.33%;
     padding: 10px;
     height: 300px; 
-    background-color: #b0aca2;
+    background-color: #23372e;
   }
   .row:after {
     content: "";
