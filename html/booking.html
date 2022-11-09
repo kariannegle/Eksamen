@@ -31,72 +31,87 @@
             </nav>
     <!-- Navigation bar end--> 
 
-
-    <h1>Booking form</h1>
-
-    <!-- Booking form -->
-    <form action="reservation.php" method="post">
-        <div class="elem-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-        </div>
-
-        <div class="elem-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-        </div>
-
-        <div class="elem-group">
-          <label for="phone">Phonenumber</label>
-          <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-        </div>
+    <div class="main-titel">
+        <h1 class="booking-titel">Book the place</h1>
+      </div>
+      
         
-        <div class="elem-group">
-          <label for="adult">How many people (0 - 100)</label>
-          <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" required>
-        </div>
-        
-        <div class="elem-group">
-          <label for="checkin-date">Date</label>
-          <input type="date" id="checkin-date" name="checkin" required>
-        </div>
+        <form action="reservation.php" method="post">
+            <div class="elem-group">
+              <label for="name">
+                <p class="booking-text">Name</p>
+              </label>
+              <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">
+                <p class="booking-text">E-mail</p>
+              </label>
+              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">
+                <p class="booking-text">Phonenumber</p>
+              </label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            
+            <div class="elem-group">
+              <label for="adult">
+                <p class="booking-text">How many people (0 - 100)</p>
+              </label>
+              <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" required>
+            </div>
+            
+            <div class="elem-group">
+              <label for="checkin-date">
+                <p class="booking-text">Pick a date</p>
+              </label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="elem-group">
+              <label for="checkout-date">
+                <p class="booking-text">Time</p>
+              </label>
+              <input type="time" id="time" name="checkout" required>
+            </div>
+            <div class="elem-group">
+              <label for="room-selection">
+                <p class="booking-text">What type of event is it?</p>
+              </label>
+              <select id="room-selection" name="room_preference" required>
+                  <option value="">Choose type of event from the List</option>
+                  <option value="connecting">Birthday</option>
+                  <option value="adjoining">Party</option>
+                  <option value="adjacent">Wedding</option>
+                  <option value="adjacent">Another</option>
+              </select>
+            </div>
+            
+            <div class="elem-group">
+              <label for="room-selection">
+                <p class="booking-text">Restaurant options</p>
+              </label>
+              <select id="room-selection" name="room_preference" required>
+                  <option value="">Choose an option from the List</option>
+                  <option value="connecting">Event without restaurant</option>
+                  <option value="adjoining">Event included restaurant</option>
+              </select>
+            </div>
 
-        <div class="elem-group">
-          <label for="checkout-date">Time</label>
-          <input type="time" id="time" name="checkout" required>
-        </div>
+            <div class="elem-group">
+              <label for="message">
+                <p class="booking-text">More information</p>
+              </label>
+              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+            </div>
 
-        <div class="elem-group">
-          <label for="room-selection">Type of event</label>
-          <select id="room-selection" name="room_preference" required>
-              <option value="">Choose type of event from the List</option>
-              <option value="connecting">Birthday</option>
-              <option value="adjoining">Party</option>
-              <option value="adjacent">Wedding</option>
-              <option value="adjacent">Another</option>
-          </select>
-        </div>
-
-        <br>
-
-        <div class="checkbox-restaurant">
-          <label for="restaurantcheck"> Check this box if you want to include the restaurant
-            <input type="checkbox" id="restaurantcheck" name="restaurantcheck" value="restaurantcheck" >
-          </label>
-        </div>
-
-        <br>
-
-        <div class="elem-group">
-          <label for="message">More information</label>
-          <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
-        </div>
-
-        <!-- Button -->
-        <button type="submit">Book</button>
-        
-      </form>
-      <br>
+            <div class="button">
+              <button type="submit">Book</button>
+            </div>
+            
+          </form>
+    
     <!-- Booking form end -->
 
 
