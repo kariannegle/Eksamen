@@ -1,259 +1,142 @@
-<!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <!-- Meta viewport-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <!-- Meta viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Meta information -->
-        <title>Web eksamen</title>
-        <meta name="author" content="gruppe 46">
-    
-        <!-- Stylesheet -->    
-        <link rel="stylesheet" href="/css/resturant.css">
-        <!-- font link-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap"
-        rel="stylesheet">
-        <!-- icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <!-- Meta information -->
+    <title>Web eksamen</title>
+    <meta name="author" content="gruppe 46">
 
-    <body>
-    <header>
-<!-- Navigation bar-->  
-    <nav class="nav">
-          <label class="logo">LUJO JUNO</label>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a class="active" href="resturant.html">Restaurant</a></li>
-                <li><a href="accessibility.html">Accessibility page</a></li>
-                <li><a href="topical.html">Topical Page</a></li>
-              </ul>
-          </ul>
-        </nav>
-    </header>
-    <!-- menu alle -->
+    <!-- Stylesheet -->    
+    <link rel="stylesheet" href="/css/resturant.css">
+    <!-- font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+        <body>  
+            <section class="sub-header">
+                <nav>
+                    <a href="index.html"><img src="/img/lojo.jpg"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="booking.html">BOOKING</a></li>
+                            <li><a href="resturant.html">RESTAURANT</a></li>
+                            <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                            <li><a href="topical.html">TOPICAL PAGE</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+               <h1>RESTAURANT</h1>
+                </div>
+            </section>
     <main>
     <!-- Lunsj meny -->
-        <section class="offers" id="Menu-link">
-            <div class="lunch">
-                <h2 class="section-title">
-                Lunsjmeny 
-                </h2>
-                <h2 class="tid">
-                <strong>kl. 11.00 - 15.00</strong><br></br>
-                </h2>
-            
+        <section class="menu">
+            <h2>Lunsjmeny</h2>
+            <h3>kl. 11.00 - 15.00</h3>
             <hr>
-    
-                <h3 class="food-item">
-                <strong>
-                    Crunchy Salad
-                </strong>
-                </h3>
-    
-                <p class="food-desc"> 
-                    <i>Salatmix med hjemmelaget pesto seranoskinke og mozzarella.
-                    Toppet med granateple, cherrytomater og pinjekjerner.</i>
-                </p>
-                <p>
-                    <i><b>Allergener</b>: hvitløk 🧄, nøtter 🌰, laktose 🥛, kan inneholde spor av gluten 🌾</i>
-                </p> 
-                <p><b>89,-</b></p>
-    
-            <hr class="hrline">
-    
-                <h3 class="food-item">
-                <strong>
-                    Avocado toast
-                </strong>  
-                </h3>
-    
-                <p class="food-desc">
-                    <i>Landbrød med hjemmelaget avocado blanding. Toppet med chiliflak, honning,
-                    koriander og granateple.</i>
-                </p>
-                <p>
-                    <i><b>Allergener:</b> gluten 🌾, kan inneholde spor av nøtter 🌰 </i>
-                </p>
+            <div class="food">
+                <h3>Crunchy Salad</h3>
+                <p>Salatmix med hjemmelaget pesto seranoskinke og mozzarella.
+                Toppet med granateple, cherrytomater og pinjekjerner.</p>
+                <p><b>Allergener:</b> hvitløk 🧄, nøtter 🌰, laktose 🥛, kan inneholde spor av gluten 🌾</p> 
+                <p><b>89,</b></p>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Avocado toast</h3>
+                <p>Landbrød med hjemmelaget avocado blanding. Toppet med chiliflak, honning,
+                koriander og granateple.</p>
+                <p><b>Allergener:</b> gluten 🌾, kan inneholde spor av nøtter 🌰</p> 
                 <p><b>75,-</b></p>
-    
-            <hr class="hrline">
-    
-                <h3 class="food-item">
-                <strong>
-                    Smoothie Bowl
-                </strong>
-                </h3>
-    
-                <p class="food-desc">
-                    <i>Velg mellom: <br>
-                        <br>
-                            <b>Topping 1: jordbær, banan, kokos, granola, peanøttsmør og chiafrø</b><br>
-                        <br>
-                            <b>Topping 2: bringbær, bjørnebær, kiwi, banan kokos, mynte og chiafrø</b><br>
-                    </i>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Smoothie Bowl</h3>
+                <p><b>Velg mellom:</b><br>
+                <b>Topping 1:</b> jordbær, banan, kokos, granola, peanøttsmør og chiafrø<br>
+                <b>Topping 2:</b> bringbær, bjørnebær, kiwi, banan kokos, mynte og chiafrø
                 </p>
-                <p>
-                    <i><b>Allergener:</b> (kun tradisjonell topping): gluten 🌾, nøtter 🌰</i>
-                </p>
-                    <p><b>99,-</b></p>
-    
-            <hr class="hrline">
+                <p><b>Allergener:</b> gluten 🌾, kan inneholde spor av nøtter 🌰</p> 
+                <p><b>99,-</b></p>
             </div>
         </section>
     <!-- Lunsj meny end -->
     
     <!--Middags meny-->
-        <section class="offers">
-            <div class="Middag">
-                <h2 class="section-title">
-                    <strong>
-                        Middagsmeny
-                    </strong>
-                </h2>
-    
-                <h2 class="tid">
-                    <strong> kl.16:00 - 22:00</strong> <br></br>
-                </h2>
-                        <hr>
-    
-                <h2 class="dinner-section">
-                    <strong>
-                        Forretter:
-                    </strong>
-                </h2>
-    
-                <h3 class="food-item">
-                    <strong>
-                        Hvitløksbrød med dip
-                    </strong>
-                </h3>
-
-                <p class="food-desc">
-                    <i>Ovnsstekt baguette smurt inn i hvitløkssmør, tilsatt olivenolje og oregano med valgfri dip, enten rømmedressing eller aioli.</i>
-                </p>
-    
-                <p>
-                    <i><b>Allergener:</b> egg 🥚, gluten 🌾, laktose 🥛</i>
-                </p>
-            
+        <section class="menu">
+            <h2>Middagsmeny</h2>
+            <h3>kl. 16:00 - 22:00</h3>
+            <hr>
+            <div class="food-course">
+                <h2>Forretter:</h2>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Hvitløksbrød med dip</h3>
+                <p>Ovnsstekt baguette smurt inn i hvitløkssmør, tilsatt olivenolje og oregano med valgfri dip,
+                enten rømmedressing eller aioli.</p>
+                <p><b>Allergener:</b> egg 🥚, gluten 🌾, laktose 🥛</p> 
                 <p><b>175,-</b></p>
-    
-                <hr class="hrline">
-    
-                <h3 class="food-item">
-                    <strong>
-                        Nachos med ost
-                    </strong>
-                </h3>
-
-                <p class="food-desc">
-                    <i>Sprøstekt Nachochips dekket av smeltet cheddarost med guacamole og salsa på siden.</i>
-                </p>
-    
-                <p>
-                    <i><b>Allergener:</b> Laktose 🥛, kan inneholde spor av nøtter 🌰</i></p>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Nachos med ost</h3>
+                <p>Sprøstekt Nachochips dekket av smeltet cheddarost med guacamole og salsa på siden.</p>
+                <p><b>Allergener:</b> Laktose 🥛, kan inneholde spor av nøtter 🌰</p> 
                 <p><b>175,-</b></p>
-    
-                <hr class="hrline">
-                                <br>
-                <h2 class="dinner-section">
-                    Hovedretter: 
-                </h2>
-        
-                <h3 class="food-item">
-                    <strong>
-                    Pasta med scampi
-                    </strong>
-                </h3>
-
-                <p class="food-desc">
-                    <i>En deilig taglatelle pasta dekket av en kremet carbonara saus, med scampi og sopp</i>
-                </p>
-            
-                <p>
-                    <i><b>Allergener:</b> skalldyr 🦐, gluten 🌾, laktose 🥛, egg 🥚</i>
-                </p>
+            </div>
+            <hr>
+            <div class="food-course">
+                <h2>Hovedretter:</h2>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Pasta med scampi</h3>
+                <p>En deilig taglatelle pasta dekket av en kremet carbonara saus, med scampi og sopp</p>
+                <p><b>Allergener:</b> skalldyr 🦐, gluten 🌾, laktose 🥛, egg 🥚</p> 
                 <p><b>210,-</b></p>
-    
-                <hr class="hrline">
-    
-                <h3 class="food-item">
-                    <strong>
-                        Baconsurret kylling med brie og spinat
-                    </strong>
-                </h3>
-                
-                <p class="food-desc">
-                    <i>Ingredienser: kylling surret i bacon av svin, brie smør, spinat, timian krydder</i>
-                </p>
-
-                <p>
-                    <b><i>Allergener:</b> laktose 🥛, egg 🥚, kan inneholde spor av nøtter 🌰 </i>
-                </p>
-                <p><b>250,-</b>
-    
-                <hr class="hrline">
-    
-                <h3 class="food-item">
-                    <strong>
-                        Laksetaco
-                    </strong>
-                </h3>
-
-                <p class="food-desc">
-                    <i>Ingredienser: laks fra Norge, tacoskjell(mais), rømme, salat</i>
-                </p>
-            
-                <p>
-                    <i><b>Allergener:</b> fisk 🐟, egg 🥚, citrus 🍊</i>
-                </p> 
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Baconsurret kylling med brie og spinat</h3>
+                <p>Ingredienser: kylling surret i bacon av svin, brie smør, spinat, timian krydder</p>
+                <p><b>Allergener:</b> laktose 🥛, egg 🥚, kan inneholde spor av nøtter 🌰 </p> 
+                <p><b>250,-</b></p>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Laksetaco</h3>
+                <p>Ingredienser: laks fra Norge, tacoskjell(mais), rømme, salat</p>
+                <p><b>Allergener:</b> fisk 🐟, egg 🥚, citrus 🍊</p> 
                 <p><b>200,-</b></p>
             </div>
         </section>
     <!--Middags meny end-->
     
     <!---Dessert--->
-        <section class="offers">
-            <div class="Dessert">
-                <h2 class="section-title">Dessert</h2>
-    
-                    <hr>
-    
-                <h3 class ="Food-item">
-                    <strong> Eplekake og vanilje is</strong>
-                </h3>
-    
-                <p class="food desc">
-                    <p>
-                        <i>Eplekake med laktosefri vaniljeis</i>
-                    </p>
-                    <p>
-                        <i><b>Allergener:</b> eple 🍎, mandler 🥜, egg 🥚, laktose 🥛</i> <br> </br>
-                    </p>
-                    <p><b>89,-</b></p>
-    
-                <hr class="hrline">
-    
-                <h3 class ="food-item">
-                    <strong>Créme brûlée</strong>
-                </h3>
-                    <p class="food desc">
-                        <p>
-                            <i>Dessert laget av eggeplommer, sukker, fløte og vanilje. Toppet med bringebær</i>
-                    </p>
-                    <p>
-                        <i><b>Allergener:</b> egg 🥚, Laktose 🥛, gluten 🌾</i> <br> </br>
-                    </p>
-                    <p><b>109,-</b></p>
-                </p>
-            
-                <hr class="hrline">
+        <section class="menu">
+            <h2>Dessert</h2>
+            <hr>
+            <div class="food">
+                <h3>Eplekake og vanilje is</h3>
+                <p>Eplekake med laktosefri vaniljeis</p>
+                <p><b>Allergener:</b> eple 🍎, mandler 🥜, egg 🥚, laktose 🥛</p> 
+                <p><b>89,-</b></p>
+            </div>
+            <hr>
+            <div class="food">
+                <h3>Créme brûlée</h3>
+                <p>Dessert laget av eggeplommer, sukker, fløte og vanilje. Toppet med bringebær/p>
+                <p><b>Allergener:</b> egg 🥚, Laktose 🥛, gluten 🌾</p> 
+                <p><b>109,-</b></p>
             </div>
         </section>
     <!----Dessert meny slutt--> 
@@ -289,8 +172,49 @@
             </div>
         <!--footer slutt--> 
         </footer>
+     <!-- footer -->
+     <section class="footer"> 
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo voluptates officiis porro ipsum exercitationem est.
+            <br>Cumque, delectus officiis 
+            necessitatibus asperiores eum quam voluptatum nulla harum qui maxime aperiam numquam!</p>
+            <div class="icons">
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fa fa-phone"></i>
+            </div>
+            <p> Copyright © 2022 by Data1200 Gruppe 46. All rights reserved.</p>
+     </section>
+     <!-- footer end-->
     
+     <!-- javascript for toggle menu-->
+     <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
     
+    <!-- javascript for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+        
         <!-----Scroll up button----->
         <button onclick="topFunction()" id="myBtn" tittle="Til toppen">^Til toppen</button>
             <script>

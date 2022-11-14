@@ -21,18 +21,51 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
   <body>
-    <header>
-    <!-- Navigation bar-->  
-        <nav class="nav">
-              <label class="logo">LUJO JUNO</label>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="resturant.html">Restaurant</a></li>
-                    <li><a href="accessibility.html">Accessibility page</a></li>
-                    <li><a class="active" href="topical.html">Topical Page</a></li>
-                  </ul>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="/img/lojo.jpg"></a>
+          <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="booking.html">BOOKING</a></li>
+                  <li><a href="resturant.html">RESTAURANT</a></li>
+                  <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                  <li><a href="topical.html">TOPICAL PAGE</a></li>
               </ul>
-            </nav>
-    </header>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     <h1>topical page</h1>
+      </div>
+  </section>
+
+   <!-- footer -->
+   <section class="footer"> 
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo voluptates officiis porro ipsum exercitationem est.
+        <br>Cumque, delectus officiis 
+        necessitatibus asperiores eum quam voluptatum nulla harum qui maxime aperiam numquam!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-phone"></i>
+        </div>
+        <p> Copyright © 2022 by Data1200 Gruppe 46. All rights reserved.</p>
+ </section>
+
+ <!-- javascript for toggle menu-->
+ <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
         </body> 
