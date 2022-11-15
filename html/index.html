@@ -21,34 +21,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>  
-        <header>
-            <div class="wrapper">
-                <!-- logo -->
-                <div class="logo">
-                    <img src="/img/lojo.jpg" alt="">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/img/lojo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="booking.html">BOOKING</a></li>
+                        <li><a href="resturant.html">RESTAURANT</a></li>
+                        <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                        <li><a href="topical.html">TOPICAL PAGE</a></li>
+                    </ul>
                 </div>
-                <!-- logo end -->
-                
-                <!-- nav bar -->
-                <ul class ="nav-area">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="booking.html">Booking</a></li>
-                    <li><a href="resturant.html">Restaurant</a></li>
-                    <li><a href="accessibility.html">Accessibility page</a></li>
-                    <li><a href="topical.html">Topical Page</a></li>
-                </ul> 
-                <!-- nav bar end-->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1> Welcome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit facere quas
+                hic vero qui quo vitae non quis.</p>
+                <a href="booking.html" class="hero-btn">BOOK NOW</a>
             </div>
-
-            <!-- welcome text-->
-            <div class="welcome-text">
-                <h1> welcome</h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores odio itaque q</p>
-                <a href="booking.html"> Book Now</a>
-            </div>
-            <!-- welcome text end-->
-        </header> 
-        
+        </section>
+    
         <!-- offers-->
         <section class="offers">
             <h1>What We Offer</h1>
@@ -88,27 +83,21 @@
                 <!-- facil col-->
                 <div class="facil-col">
                     <img src="/img/bar.jpg" alt="">
-                    <div class="layer">
                         <h3>BAR</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore repellat aut voluptatum dignissimos? Explicabo suscipit nesciunt consequuntur 
                             laboriosam vel sed recusandae ipsam, corrupti tenetur expedita eius praesentium placeat dolorum.</p>
-                    </div>
                 </div>
                 <div class="facil-col">
                     <img src="/img/dining.jpg" alt="">
-                    <div class="layer">
                         <h3>RESTAURANT</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore repellat aut voluptatum dignissimos? Explicabo suscipit nesciunt consequuntur 
                             laboriosam vel sed recusandae ipsam, corrupti tenetur expedita eius praesentium placeat dolorum.</p>
-                    </div>
                 </div>
                 <div class="facil-col">
                     <img src="/img/dancefloor.jpg" alt="">
-                    <div class="layer">
                         <h3>DANCEFLOOR</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore repellat aut voluptatum dignissimos? Explicabo suscipit nesciunt consequuntur 
                             laboriosam vel sed recusandae ipsam, corrupti tenetur expedita eius praesentium placeat dolorum.</p>
-                    </div>
                 </div>
                 <!-- facil col end-->  
             </div>
@@ -119,14 +108,15 @@
          <!-- call to action-->
          <section class="cta">
             <h1>Have The Best Party<br> With A Venue Perfect For Anything</h1>
-            <a href="/html/booking.html" >Book Here</a>
+            <a href="booking.html" class="hero-btn">Book Here</a>
          </section>
          <!-- call to action end-->
 
          <!-- footer -->
          <section class="footer"> 
             <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo voluptates officiis porro ipsum exercitationem est.<br>Cumque, delectus officiis 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo voluptates officiis porro ipsum exercitationem est.
+                <br>Cumque, delectus officiis 
                 necessitatibus asperiores eum quam voluptatum nulla harum qui maxime aperiam numquam!</p>
                 <div class="icons">
                     <i class="fa fa-facebook-square"></i>
@@ -137,4 +127,21 @@
                 </div>
                 <p> Copyright © 2022 by Data1200 Gruppe 46. All rights reserved.</p>
          </section>
+        
+         <!-- javascript for toggle menu-->
+         <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+        
+        
+        
+            
     </body>
