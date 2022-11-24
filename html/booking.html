@@ -43,11 +43,7 @@
       </div>
     </section>
     <!-- header end-->
-    <div class="main-titel">
-        <h1 class="booking-titel">Book the place</h1>
-      </div>
-      
-        
+      <div class="bookingpage">
         <form action="reservation.php" method="post">
             <div class="elem-group">
               <label for="name">
@@ -65,7 +61,7 @@
               <label for="phone">
                 <p class="booking-text">Phonenumber</p>
               </label>
-              <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
             </div>
             
             <div class="elem-group">
@@ -117,14 +113,19 @@
               </label>
               <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
             </div>
-
-            <div class="button">
-              <button type="submit">Book</button>
-            </div>
             
           </form>
+
+        </div>
     
     <!-- Booking form end -->
+
+    <div class="button">
+      <form action="thankyou.html">
+      <button type="submit">Book</button>
+      </form>
+    </div>
+
         <!-- footer -->
          <section class="footer"> 
             <h4>About Us</h4>

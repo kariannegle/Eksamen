@@ -121,7 +121,8 @@ nav .fa{
 .row {
   margin-top: 5%;
   display: flex;
-  justify-content: space-between;
+  column-gap: 10px;
+  justify-content: center;
 }
 .offer-col{
   flex-basis: 31%;

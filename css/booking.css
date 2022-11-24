@@ -65,7 +65,12 @@ nav .fa{
   display: none;
 }
 /** header end **/
+
 /*** Booking form ***/
+div.bookingpage {
+  padding: 40px
+}
+
 div.elem-group {
   margin: 20px 0;
   width: 500px;
