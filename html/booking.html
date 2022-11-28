@@ -43,88 +43,114 @@
       </div>
     </section>
     <!-- header end-->
-    <div class="main-titel">
-        <h1 class="booking-titel">Book the place</h1>
-      </div>
-      
+
+    <section class="about-us">
+      <h1>About us</h1>
+        <p>Lujo Juno has for several generations, under the auspices of the Lujo Juno family, been known for delicious food and a pleasant atmosphere - as well as a beautiful venue with a lovely view of the sea.
+          </p>
+
+        <p>We run like a normal restaurant on the weekdays and rent out our large venue. Our venue has space for 100 people, with an outdoor area and an indoor area. You can book our venue with or without a restaurant.</p>
         
-        <form action="reservation.php" method="post">
-            <div class="elem-group">
-              <label for="name">
-                <p class="booking-text">Name</p>
-              </label>
-              <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-            </div>
-            <div class="elem-group">
-              <label for="email">
-                <p class="booking-text">E-mail</p>
-              </label>
-              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-            </div>
-            <div class="elem-group">
-              <label for="phone">
-                <p class="booking-text">Phonenumber</p>
-              </label>
-              <input type="tel" id="phone" name="visitor_phone" placeholder="123-456-789" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
-            </div>
-            
-            <div class="elem-group">
-              <label for="adult">
-                <p class="booking-text">How many people (0 - 100)</p>
-              </label>
-              <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" required>
-            </div>
-            
-            <div class="elem-group">
-              <label for="checkin-date">
-                <p class="booking-text">Pick a date</p>
-              </label>
-              <input type="date" id="checkin-date" name="checkin" required>
-            </div>
-            <div class="elem-group">
-              <label for="checkout-date">
-                <p class="booking-text">Time</p>
-              </label>
-              <input type="time" id="time" name="checkout" required>
-            </div>
-            <div class="elem-group">
-              <label for="room-selection">
-                <p class="booking-text">What type of event is it?</p>
-              </label>
-              <select id="room-selection" name="room_preference" required>
-                  <option value="">Choose type of event from the List</option>
-                  <option value="connecting">Birthday</option>
-                  <option value="adjoining">Party</option>
-                  <option value="adjacent">Wedding</option>
-                  <option value="adjacent">Another</option>
-              </select>
-            </div>
-            
-            <div class="elem-group">
-              <label for="room-selection">
-                <p class="booking-text">Restaurant options</p>
-              </label>
-              <select id="room-selection" name="room_preference" required>
-                  <option value="">Choose an option from the List</option>
-                  <option value="connecting">Event without restaurant</option>
-                  <option value="adjoining">Event included restaurant</option>
-              </select>
-            </div>
+        <p>Just come by for a delicious meal or book our venue here on the website.</p>
+        
+        <p>We are pleased to welcome you to our restaurant. We hope you will enjoy both the food and the atmosphere.</p>
+      
+      <div class="row">
+          <div class="about-us-col">
+            <div class="bookingpage">
 
-            <div class="elem-group">
-              <label for="message">
-                <p class="booking-text">More information</p>
-              </label>
-              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
-            </div>
+              <!-- Code from https://codepen.io/tutsplus/pen/wNaGjy -->
+              <form action="reservation.php" method="post">
+                  <div class="elem-group-start">
+                    <label for="name">
+                      <p class="booking-text">Name</p>
+                    </label>
+                    <input type="text" id="name" name="visitor_name" placeholder="Your Name" >
+                  </div>
+                  <div class="elem-group">
+                    <label for="email">
+                      <p class="booking-text">E-mail</p>
+                    </label>
+                    <input type="email" id="email" name="visitor_email" placeholder="your@email.com">
+                  </div>
+                  <div class="elem-group">
+                    <label for="phone">
+                      <p class="booking-text">Phonenumber</p>
+                    </label>
+                    <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
+                  </div>
+                  
+                  <div class="elem-group">
+                    <label for="adult">
+                      <p class="booking-text">How many people (0 - 100)</p>
+                    </label>
+                    <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100">
+                  </div>
+                  
+                  <div class="elem-group">
+                    <label for="checkin-date">
+                      <p class="booking-text">Pick a date</p>
+                    </label>
+                    <input type="date" id="checkin-date" name="checkin" required>
+                  </div>
+                  <div class="elem-group">
+                    <label for="checkout-date">
+                      <p class="booking-text">Time</p>
+                    </label>
+                    <input type="time" id="time" name="checkout" required>
+                  </div>
+                  <div class="elem-group">
+                    <label for="room-selection">
+                      <p class="booking-text">What type of event is it?</p>
+                    </label>
+                    <select id="room-selection" name="room_preference" required>
+                        <option value="">Choose type of event from the List</option>
+                        <option value="connecting">Birthday</option>
+                        <option value="adjoining">Party</option>
+                        <option value="adjacent">Wedding</option>
+                        <option value="adjacent">Another</option>
+                    </select>
+                  </div>
+                  
+                  <div class="elem-group">
+                    <label for="room-selection">
+                      <p class="booking-text">Restaurant options</p>
+                    </label>
+                    <select id="room-selection" name="room_preference" required>
+                        <option value="">Choose an option from the List</option>
+                        <option value="connecting">Event without restaurant</option>
+                        <option value="adjoining">Event included restaurant</option>
+                    </select>
+                  </div>
+      
+                  <div class="elem-group-end">
+                    <label for="message">
+                      <p class="booking-text">More information</p>
+                    </label>
+                    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+                  </div>
+                </form>
+              </div>
+          <!-- booking form end -->
+          </div>
 
-            <div class="button">
-              <button type="submit">Book</button>
-            </div>
-            
-          </form>
-    
-    <!-- Booking form end -->
+          <div class="about-us-col">
+            <img src="/img/dining.jpg" alt="">
+            <img src="/img/tavern.jpg" alt="Image by Astrid Schmid from Pixabay">
+            <img src="/img/oceanview.jpg" alt="Image by Monique Stokman from Pixabay">
+          </div>
+
+      </div>
+      <!-- about us col end-->
+  </section>
+  <!-- about us end-->
+
+    <div class="button">
+      <form action="thankyou.html">
+      <button type="submit">Book</button>
+      </form>
+    </div>
+
         <!-- footer -->
          <section class="footer"> 
             <h4>About Us</h4>
