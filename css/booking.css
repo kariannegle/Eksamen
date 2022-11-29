@@ -73,29 +73,47 @@ nav .fa{
 }
 /** header end **/
 
-/*** about us ***/
-.about-us {
+/** About Lujo Juno **/
+.about-lujo-juno{ 
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;  
+  padding-top: 100px;
 }
-
-.about-us h1{ 
+.about-lujo-juno h1{
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   font-weight: 600px;
 }
-
-.about-us p{
+.about-lujo-juno p{
   color:rgb(29, 29, 29);
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
 }
-
+.about-col{
+  flex-basis: 40%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin: 20px;
+  text-align: left;
+}
+.about-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.about-col p{
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.about-col h2{
+  margin: top 16px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+}
 .row {
   margin-top: 5%;
   display: flex;
@@ -103,36 +121,180 @@ nav .fa{
   justify-content: center;
 }
 
-.about-us-col{
-  flex-basis: 50%;
+/** restaurant info **/
+.restaurant-info{ 
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.restaurant-info p{
+  color:rgb(29, 29, 29);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.restaurant-info-col{
+  flex-basis: 25%;
   border-radius: 10px;
   margin-bottom: 5%;
+  text-align: left;
+  background-color: #7ab4b9;
   padding: 20px;
-  box-sizing: border-box;
 }
-
-.about-us-col img {
-  width: 500px;
-  height: 370px;
-  border-radius: 10px;  
-  margin: 25px;
-}
-
-.about-us-col img:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
-
-h3{ 
+.restaurant-info-col p{
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  font-size: 23px;
-  font-weight: 600;
-  margin: 10px 0;
 }
-/** about us end **/
+.restaurant-info-col h3{
+  margin: top 16px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+.restaurant-info-col i{
+  font-size: 50px;
+  text-align: right;
+}
+div.row2{
+  margin-top: 5%;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
 
+/** venue pictures **/
+.venue-pictures{ 
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 5%;
+}
+.venue-pictures-col{
+  flex-basis: 85%;
+  border-radius: 10px;
+  text-align: left;
+}
+.venue-pictures-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+div.row3{
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+/*Code from https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 /*** Booking form ***/
 /*Code from https://codepen.io/tutsplus/pen/wNaGjy*/
+div.bookingform-header h3{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 30px;
+}
+div.bookingform-header p{
+  color:rgb(29, 29, 29);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+}
 div.elem-group {
   margin: 20px 0;
   width: 450px;
