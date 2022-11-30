@@ -70,14 +70,13 @@ nav .fa{
 }
 .btn{
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   padding: 10px 25px;
   border-radius: 40px;
   background: #fff;
   color: #2b1055;
   font-size: 1em;
   z-index: 9;
-
 }
 /** header end **/
 
