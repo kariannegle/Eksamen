@@ -284,10 +284,10 @@ nav .fa{
   padding: 30px;
 }
 .row{ 
-    flex-direction: column;
+  flex-direction: column;
 }
 .cta h1{
-    font-size: 24px;
+  font-size: 24px;
 }
 .footer{
   display: block;
