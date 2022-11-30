@@ -43,88 +43,225 @@
       </div>
     </section>
     <!-- header end-->
-      <div class="bookingpage">
-        <form action="reservation.php" method="post">
-            <div class="elem-group">
-              <label for="name">
-                <p class="booking-text">Name</p>
-              </label>
-              <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-            </div>
-            <div class="elem-group">
-              <label for="email">
-                <p class="booking-text">E-mail</p>
-              </label>
-              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-            </div>
-            <div class="elem-group">
-              <label for="phone">
-                <p class="booking-text">Phonenumber</p>
-              </label>
-              <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
-            </div>
-            
-            <div class="elem-group">
-              <label for="adult">
-                <p class="booking-text">How many people (0 - 100)</p>
-              </label>
-              <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" required>
-            </div>
-            
-            <div class="elem-group">
-              <label for="checkin-date">
-                <p class="booking-text">Pick a date</p>
-              </label>
-              <input type="date" id="checkin-date" name="checkin" required>
-            </div>
-            <div class="elem-group">
-              <label for="checkout-date">
-                <p class="booking-text">Time</p>
-              </label>
-              <input type="time" id="time" name="checkout" required>
-            </div>
-            <div class="elem-group">
-              <label for="room-selection">
-                <p class="booking-text">What type of event is it?</p>
-              </label>
-              <select id="room-selection" name="room_preference" required>
-                  <option value="">Choose type of event from the List</option>
-                  <option value="connecting">Birthday</option>
-                  <option value="adjoining">Party</option>
-                  <option value="adjacent">Wedding</option>
-                  <option value="adjacent">Another</option>
-              </select>
-            </div>
-            
-            <div class="elem-group">
-              <label for="room-selection">
-                <p class="booking-text">Restaurant options</p>
-              </label>
-              <select id="room-selection" name="room_preference" required>
-                  <option value="">Choose an option from the List</option>
-                  <option value="connecting">Event without restaurant</option>
-                  <option value="adjoining">Event included restaurant</option>
-              </select>
-            </div>
 
-            <div class="elem-group">
-              <label for="message">
-                <p class="booking-text">More information</p>
-              </label>
-              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
-            </div>
-            
-          </form>
+    <!-- About Lujo Juno -->
+    <section class="about-lujo-juno">
+      <div class="row">
+          <!-- facil col-->
+          <div class="about-col">
+                  <h2>About Lujo Juno</h2>
+                  <p>Lujo Juno has for several generations, under the auspices of the Lujo Juno family, been known for delicious food and a pleasant atmosphere - as well as a beautiful venue with a lovely view of the sea.
+                  </p>
+                  <br>
+                  <h2>Our restaurant</h2>
+                  <p>We run like a normal restaurant on the weekdays and rent out our large venue. Our venue has space for 100 people, with an outdoor area and an indoor area. You can book our venue with or without a restaurant.</p>
+                  <br>
+                  <h2>Dinner or book our place</h2>
+                  <p>Just come by for a delicious meal or book our venue here on the website.</p>
+                  <br>
+          </div>
+          <div class="about-col">
+              <img src="/img/dining.jpg" alt="">
+          </div>
+          <!-- about col end-->  
+      </div>
+  </section>       
+   <!-- About Lujo Juno end -->
 
+   <!-- restaurant info -->
+   <section class="restaurant-info">
+    <h3>Welcome!</h3>
+                  <p>We are pleased to welcome you to our restaurant. We hope you will enjoy both the food and the atmosphere.</p>
+    <div class="row2">
+        <!-- restaurant info col-->
+        <div class="restaurant-info-col">
+          <i class="fa fa-clock-o"></i>
+                <h3>11:00 - 22:00</h3>
+                <p>Opening hours</p>
         </div>
-    
-    <!-- Booking form end -->
+        <div class="restaurant-info-col">
+          <i class="fa fa-map-pin"></i>
+                <h3>LOCATION</h3>
+                <p>Location</p>
+        </div>
+        <div class="restaurant-info-col">
+          <i class="fa fa-comments"></i>
+                <h3>E-MAIL</h3>
+                <p>Email@gmail.com</p>
+        </div>
+        <!-- restaurant info col end-->  
+    </div>
+</section>       
+ <!-- restaurant info end -->
 
+ <!-- venue pictures -->
+    <section class="venue-pictures">
+      <div class="row3">
+      <!-- rvenue pictures col-->
+        <div class="venue-pictures-col">
+        <!-- Code from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+          <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                  <img src="/img/tavern.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                  <img src="/img/wine.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                  <img src="/img/dining.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                  <img src="/img/oceanview.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div>
+
+    <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+      </script>
+   
+      </div>
+      <!-- facil col end-->  
+  </div>
+</section>       
+<!-- facilities end -->
+
+ <!-- Code from https://codepen.io/tutsplus/pen/wNaGjy -->
+ <form action="reservation.php" method="post">
+  <div class="bookingform-header">
+    <h3>Bookingform</h3>
+      <p>Fill inn the bookingform to book our venue!</p>
+  </div>
+  <div class="elem-group-start">
+    <label for="name">
+      <p class="booking-text">Name</p>
+    </label>
+    <input type="text" id="name" name="visitor_name" placeholder="Your Name" >
+  </div>
+  <div class="elem-group">
+    <label for="email">
+      <p class="booking-text">E-mail</p>
+    </label>
+    <input type="email" id="email" name="visitor_email" placeholder="your@email.com">
+  </div>
+  <div class="elem-group">
+    <label for="phone">
+      <p class="booking-text">Phonenumber</p>
+    </label>
+    <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
+  </div>
+  
+  <div class="elem-group">
+    <label for="adult">
+      <p class="booking-text">How many people (0 - 100)</p>
+    </label>
+    <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100">
+  </div>
+  
+  <div class="elem-group">
+    <label for="checkin-date">
+      <p class="booking-text">Pick a date</p>
+    </label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  <div class="elem-group">
+    <label for="checkout-date">
+      <p class="booking-text">Time</p>
+    </label>
+    <input type="time" id="time" name="checkout" required>
+  </div>
+  <div class="elem-group">
+    <label for="room-selection">
+      <p class="booking-text">What type of event is it?</p>
+    </label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose type of event from the List</option>
+        <option value="connecting">Birthday</option>
+        <option value="adjoining">Party</option>
+        <option value="adjacent">Wedding</option>
+        <option value="adjacent">Another</option>
+    </select>
+  </div>
+  
+  <div class="elem-group">
+    <label for="room-selection">
+      <p class="booking-text">Restaurant options</p>
+    </label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">Choose an option from the List</option>
+        <option value="connecting">Event without restaurant</option>
+        <option value="adjoining">Event included restaurant</option>
+    </select>
+  </div>
+
+  <div class="elem-group-end">
+    <label for="message">
+      <p class="booking-text">More information</p>
+    </label>
+    <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+  </div>
+</form>
+</div>
+<!-- booking form end -->
+
+<!-- button -->
     <div class="button">
       <form action="thankyou.html">
       <button type="submit">Book</button>
       </form>
     </div>
+    <!-- button -->
 
         <!-- footer -->
          <section class="footer"> 
