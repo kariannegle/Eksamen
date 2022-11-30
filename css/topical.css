@@ -2,11 +2,16 @@
   margin: 0;
   padding: 0;
 }
+body{
+  min-height: 100vh;
+  background: linear-gradient(#D1C8C5, #59ADBD, #0172A5);
+  overflow-x: hidden;
+}
 /** header **/
 .sub-header{
-  height: 50vh;
+  height: 79vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
+  background-image: url(/img/beach.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -23,7 +28,6 @@
   font-weight: 600;
   letter-spacing: 2px;
 }
-
 nav{
   display: flex;
   padding: 1% 6%;
@@ -64,9 +68,46 @@ nav img{
 nav .fa{
   display: none;
 }
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1em;
+  z-index: 9;
+
+}
 /** header end **/
 
-
+/**text**/
+row::before{
+  content: "";
+  bottom: 0;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #D1C8C5, #59ADBD, transparent);
+  z-index: 1000;
+}
+.text{
+  position: relative;
+  padding: 200px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.text h2{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.text p{
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #fff;
+}
 
 
 
@@ -89,13 +130,13 @@ nav .fa{
   padding: 30px 0;
 }
 .footer h4{
-  color:rgb(29, 29, 29);
+  color:#fff;
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
 }
 .footer p{
-  color:rgb(29, 29, 29);
+  color:#fff;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -142,13 +183,5 @@ nav .fa{
 .nav-links ul{
   padding: 30px;
 }
-.row{ 
-    flex-direction: column;
-}
-.cta h1{
-    font-size: 24px;
-}
-.footer{
-  display: block;
-}
+
 }

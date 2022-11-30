@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .header{
   min-height: 100vh;
@@ -283,10 +284,10 @@ nav .fa{
   padding: 30px;
 }
 .row{ 
-    flex-direction: column;
+  flex-direction: column;
 }
 .cta h1{
-    font-size: 24px;
+  font-size: 24px;
 }
 .footer{
   display: block;

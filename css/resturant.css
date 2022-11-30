@@ -186,6 +186,7 @@
     padding: 10px;
     height: 300px; 
     background-color: #23372e;
+    font-family: 'Poppins', sans-serif;
   }
   .row:after {
     content: "";
@@ -193,15 +194,17 @@
     clear: both;
   } 
   .footer-header{
-  color:white 
+    color:white;
   }
   
   .footer-p{
-    color:white 
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
   }
   
   .footer-desc{
-    color:white
+    color:white;
   }
   /** footer 1 slutt **/
 
@@ -268,6 +271,6 @@
   padding: 30px;
   }
   
-  }
+}
   
   
