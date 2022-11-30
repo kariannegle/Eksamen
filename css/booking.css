@@ -80,9 +80,9 @@ nav .fa{
   text-align: center;
   padding-top: 100px;
 }
-.about-lujo-juno h1{
+.about-lujo-juno h2{
   font-family: 'Playfair Display', serif;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600px;
 }
 .about-lujo-juno p{
@@ -94,7 +94,7 @@ nav .fa{
   padding: 10px;
 }
 .about-col{
-  flex-basis: 40%;
+  flex-basis: 41%;
   border-radius: 10px;
   margin-bottom: 5%;
   margin: 20px;
@@ -103,6 +103,7 @@ nav .fa{
 .about-col img{
   width: 100%;
   border-radius: 10px;
+  margin-top: 20%;
 }
 .about-col p{
   padding: 0;
@@ -141,7 +142,7 @@ nav .fa{
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background-color: #7ab4b9;
+  background-color: #a6cfd2;
   padding: 20px;
 }
 .restaurant-info-col p{
@@ -152,19 +153,25 @@ nav .fa{
 .restaurant-info-col h3{
   margin: top 16px;
   margin-bottom: 15px;
-  text-align: left;
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
 .restaurant-info-col i{
   font-size: 50px;
-  text-align: right;
+  color: rgb(255, 255, 255);
+  align-items: center;
 }
 div.row2{
   margin-top: 5%;
   display: flex;
   column-gap: 10px;
   justify-content: center;
+}
+div.text-above-col h3{
+  font-size: 40px;
+}
+div.text-above-col p{
+  font-size: 17px;
 }
 
 /** venue pictures **/
