@@ -5,12 +5,12 @@
 }
 body{
   min-height: 100vh;
-  background: linear-gradient(#D1C8C5, #59ADBD, #0172A5);
+  background: linear-gradient(#75afbb, #0172A5);
   overflow-x: hidden;
 }
 /** header **/
 .sub-header{
-  height: 79vh;
+  height: 100vh;
   width: 100%;
   background-image: url(/img/beach.jpg);
   background-position: center;
@@ -75,7 +75,7 @@ nav .fa{
   color: #fff;
   border: 1px solid #fff;
   padding: 10px 34px;
-  margin-top: 40px;
+  margin-top: 70px;
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -100,11 +100,12 @@ nav .fa{
   font-size: 3.5em;
   padding-bottom: 0px;
   margin: 20px 400px 20px;
+  color: #D1C8C5;
 }
 .title h3{
   font-family: 'Playfair Display', serif;
-  color: #6a290b;
-  font-size: 2em;
+  color: #D1C8C5;
+  font-size: 2.3em;
   padding-bottom: 0px;
   margin: 20px 400px 20px;
 }
@@ -115,7 +116,7 @@ nav .fa{
 }
 
 .end{
-  height: 79vh;
+  height: 100vh;
   width: 100%;
   background-image: url(/img/earth.jpg);
   background-position: center;
@@ -189,8 +190,18 @@ nav .fa{
 .nav-links ul{
   padding: 30px;
 }
-.end{
-  height: 50vh;
-  width: auto;
+
+.page-content{
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+  left: -370px;
+  overflow: hidden;
+}
+
+.end img{
+  height: 100vh;
+  width: 100%;
+  
 }
 }
