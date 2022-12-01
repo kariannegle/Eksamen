@@ -132,7 +132,7 @@ nav .fa{
 .row {
   margin-top: 5%;
   display: flex;
-  column-gap: 10px;
+  column-gap: 20px;
   justify-content: center;
 }
 .offer-col{
@@ -142,14 +142,16 @@ nav .fa{
   margin-bottom: 5%;
   box-sizing: border-box;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 20px 20px;
   position: relative;
 }
 .offer-col a {
   list-style-type: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
+  text-decoration: none;
+  text-decoration: none;
+}
+.offer-col a:visited{
+  color: black;
 }
 h3{ 
   text-align: center;
