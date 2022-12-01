@@ -15,6 +15,7 @@
   text-align: center;
   color: #fff;
 }
+
 .sub-header h1{
   margin-top: 50px;
   font-family: 'Playfair Display', serif;
@@ -80,11 +81,15 @@ nav .fa{
   text-align: center;
   padding-top: 100px;
 }
+
+/* titel */
 .about-lujo-juno h2{
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: 600px;
 }
+
+/* text */
 .about-lujo-juno p{
   color:rgb(29, 29, 29);
   font-family: 'Poppins', sans-serif;
@@ -93,6 +98,8 @@ nav .fa{
   line-height: 22px;
   padding: 10px;
 }
+
+/* column */
 .about-col{
   flex-basis: 41%;
   border-radius: 10px;
@@ -100,27 +107,37 @@ nav .fa{
   margin: 20px;
   text-align: left;
 }
+
+/* column image */
 .about-col img{
   width: 100%;
   border-radius: 10px;
-  margin-top: 20%;
 }
+
+/* column text */
 .about-col p{
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
+
+/* column titel */
 .about-col h2{
   margin: top 16px;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
   font-family: 'Playfair Display', serif;
 }
+
+/* row */
 .row {
   margin-top: 5%;
-  display: flex;
   column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
+
 
 /** restaurant info **/
 .restaurant-info{ 
@@ -129,6 +146,8 @@ nav .fa{
   text-align: center;
   padding-top: 100px;
 }
+
+/* restaurant info text */
 .restaurant-info p{
   color:rgb(29, 29, 29);
   font-family: 'Poppins', sans-serif;
@@ -137,6 +156,8 @@ nav .fa{
   line-height: 22px;
   padding: 10px;
 }
+
+/* restaurant info column */
 .restaurant-info-col{
   flex-basis: 25%;
   border-radius: 10px;
@@ -145,17 +166,23 @@ nav .fa{
   background-color: #a6cfd2;
   padding: 20px;
 }
-.restaurant-info-col p{
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-}
+
+/* column titel */
 .restaurant-info-col h3{
   margin: top 16px;
   margin-bottom: 15px;
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
+
+/* column text */
+.restaurant-info-col p{
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* column icons */
 .restaurant-info-col i{
   font-size: 50px;
   color: rgb(255, 255, 255);
@@ -164,9 +191,12 @@ nav .fa{
 div.row2{
   margin-top: 5%;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 10px;
   justify-content: center;
 }
+
+/* the text over the columns */
 div.text-above-col h3{
   font-size: 40px;
 }
@@ -182,13 +212,18 @@ div.text-above-col p{
   padding-top: 100px;
   margin-bottom: 5%;
 }
+
+/* column */
 .venue-pictures-col{
   flex-basis: 85%;
   border-radius: 10px;
   text-align: left;
 }
+
+/* column image*/
 .venue-pictures-col img{
-  width: 100%;
+  width: 1000px;
+  height: 500px;
   border-radius: 10px;
 }
 div.row3{
@@ -242,17 +277,19 @@ div.row3{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
+  margin-bottom: 5px;
   width: 100%;
   text-align: center;
+  background-color: #71717184;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/4 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -293,6 +330,7 @@ div.bookingform-header h3{
   text-align: center;
   font-size: 30px;
 }
+
 div.bookingform-header p{
   color:rgb(29, 29, 29);
   font-family: 'Poppins', sans-serif;
@@ -302,18 +340,19 @@ div.bookingform-header p{
   padding: 10px;
   text-align: center;
 }
+
 div.elem-group {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
 }
 
 div.elem-group-start {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
   border-top-left-radius: 10px;
@@ -322,8 +361,8 @@ div.elem-group-start {
 
 div.elem-group-end {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
   border-bottom-left-radius: 10px;
@@ -351,7 +390,7 @@ textarea {
 }
 
 div.bookingpage {
-  border-radius: 10px;
+  
 }
 
 /*** Booking form end***/
