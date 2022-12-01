@@ -140,8 +140,16 @@ nav .fa{
   background: #a6cfd2;
   border-radius: 10px;
   margin-bottom: 5%;
-  padding: 20px 12px;
   box-sizing: border-box;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.offer-col a {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
 }
 h3{ 
   text-align: center;
