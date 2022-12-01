@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .sub-header{
   height: 50vh;
@@ -68,11 +69,18 @@ nav .fa{
 /** meny **/ 
 .menu{
   text-align: center;
+  align-content: center;
   padding: 10px;
   border: 5px solid #23372e;
   color: rgb(29, 29, 29);
   border-radius: 25px;
   margin: 20px;
+
+}
+.menu hr{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu h2 { 
   margin: 20px;
