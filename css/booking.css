@@ -343,16 +343,16 @@ div.bookingform-header p{
 
 div.elem-group {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
 }
 
 div.elem-group-start {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
   border-top-left-radius: 10px;
@@ -361,8 +361,8 @@ div.elem-group-start {
 
 div.elem-group-end {
   margin: 20px 0;
-  width: 450px;
-  margin: 0 auto;
+  width: auto;
+  margin: auto;
   padding: 20px;
   background-color: #a6cfd2;
   border-bottom-left-radius: 10px;
@@ -390,7 +390,7 @@ textarea {
 }
 
 div.bookingpage {
-  border-radius: 10px;
+  
 }
 
 /*** Booking form end***/
