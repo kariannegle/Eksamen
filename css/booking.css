@@ -313,17 +313,19 @@ img {
 
 
 /*** Booking form ***/
-/*Code from https://codepen.io/tutsplus/pen/wNaGjy*/
+/*Main code from https://codepen.io/tutsplus/pen/wNaGjy*/
 div.bookingform-header{
   margin-top: 10%;
 }
 
+/* title */
 div.bookingform-header h3{
   font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: 30px;
 }
 
+/* text */
 div.bookingform-header p{
   color:rgb(29, 29, 29);
   font-family: 'Poppins', sans-serif;
@@ -334,6 +336,7 @@ div.bookingform-header p{
   text-align: center;
 }
 
+/* the boxes with the different fill in questions */
 div.elem-group {
   margin: 20px 0;
   width: 450px;
@@ -342,6 +345,7 @@ div.elem-group {
   background-color: #a6cfd2;
 }
 
+/* the first box of the questions */
 div.elem-group-start {
   margin: 20px 0;
   width: 450px;
@@ -352,6 +356,7 @@ div.elem-group-start {
   border-top-right-radius: 10px;
 }
 
+/* the last box of questions */
 div.elem-group-end {
   margin: 20px 0;
   width: 450px;
@@ -362,11 +367,13 @@ div.elem-group-end {
   border-bottom-right-radius: 10px;
 }
 
+/* the text above the boxes */
 p.booking-text {
   font-size: 22px;
   font-family: 'Playfair Display', serif;
 }
 
+/* input text when typing in answers in question boxes */
 input, select, textarea {
   border-radius: 2px;
   border: 2px solid #777;
@@ -396,7 +403,7 @@ div.button {
 button {
   height: 70px;
   width: 200px;
-  background-color: rgb(193, 114, 88);
+  background-color: rgb(247, 100, 90);
   border: none;
   color: white;
   font-size: 1.25em;
@@ -404,7 +411,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
-  opacity: 0.6;
+  opacity: 0.7;
   
 }
 
