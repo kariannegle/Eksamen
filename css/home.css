@@ -250,13 +250,14 @@ h3{
 
 /** footer **/
 .footer {
-  width: 100%;
+  width: 65%;
+  margin: 0 auto;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  padding: 30px 0;
+  
 }
 .footer h4{
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin-top: 20px;
   font-weight: 600;
 }
@@ -272,6 +273,16 @@ h3{
   margin: 0 13px;
   cursor: pointer;
   padding: 18px 0;
+}
+.column{
+  background-color: #a6cfd2;
+  width: 100%;
+  padding: 4%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.column h4{
+  margin-top:10px;
 }
 
 
@@ -315,13 +326,14 @@ nav .fa{
   border-radius: 10px
 }
 .row{ 
-    flex-direction: column;
+  flex-direction: column;
 }
 .cta h1{
     font-size: 24px;
 }
 .footer{
   display: block;
+  width: 80%;
 }
 
 }
