@@ -112,30 +112,32 @@ nav .fa{
 .about-col img{
   width: 100%;
   border-radius: 10px;
-  margin-top: 20%;
 }
 
 /* column text */
 .about-col p{
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 /* column titel */
 .about-col h2{
   margin: top 16px;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
   font-family: 'Playfair Display', serif;
 }
 
 /* row */
 .row {
   margin-top: 5%;
-  display: flex;
   column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
+
 
 /** restaurant info **/
 .restaurant-info{ 
@@ -189,6 +191,7 @@ nav .fa{
 div.row2{
   margin-top: 5%;
   display: flex;
+  flex-wrap: wrap;
   column-gap: 10px;
   justify-content: center;
 }
