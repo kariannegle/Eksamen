@@ -82,6 +82,11 @@ nav .fa{
   position: relative;
   cursor: pointer;
 }
+.btn:hover{
+  border: 1px solid #6594b8;
+  background: #6590b8;
+  transition: 1s;
+}
 /** header end **/
 
 /**text**/
