@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
 .header{
   min-height: 100vh;
   width: 100%;
@@ -130,8 +140,16 @@ nav .fa{
   background: #a6cfd2;
   border-radius: 10px;
   margin-bottom: 5%;
-  padding: 20px 12px;
   box-sizing: border-box;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.offer-col a {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
 }
 h3{ 
   text-align: center;
@@ -145,6 +163,7 @@ h3{
 /** offers end **/
 
 /** facilities **/
+
 .facilities{ 
   width: 80%;
   margin: auto;
@@ -171,7 +190,11 @@ h3{
   text-align: left;
 }
 .facil-col img{
-  width: 100%;
+  width: 30vw;
+  
+  border-radius: 10px;
+  height: 18vw;
+  
   border-radius: 10px;
 }
 .facil-col p{
@@ -249,6 +272,7 @@ h3{
   padding: 18px 0;
 }
 
+
 /** media query **/
 @media (max-width: 800px) 
 {
@@ -283,14 +307,20 @@ nav .fa{
 .nav-links ul{
   padding: 30px;
 }
+.facil-col img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px
+}
 .row{ 
-  flex-direction: column;
+    flex-direction: column;
 }
 .cta h1{
-  font-size: 24px;
+    font-size: 24px;
 }
 .footer{
   display: block;
 }
+
 }
 
