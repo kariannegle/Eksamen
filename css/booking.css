@@ -8,6 +8,7 @@
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/tavern.jpg);
+  /* Bilde hentet fra https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/*/
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -198,7 +199,7 @@ nav .fa{
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background-color: #a6cfd2;
+  background-color: #7dadb0;
   padding: 20px;
 }
 
@@ -208,7 +209,7 @@ nav .fa{
   margin-bottom: 15px;
   font-family: 'Poppins', serif;
   text-align: center;
-  color: #158e99;
+  color: #ffffff;
 }
 
 /* column text */
@@ -217,13 +218,13 @@ nav .fa{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: #158e99;
+  color: #ffffff;
 }
 
 /* column icons */
 .restaurant-info-col i{
   font-size: 50px;
-  color:#158e99;
+  color:#ffffff;
   align-items: center;
 }
 div.row2{
