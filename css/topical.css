@@ -145,12 +145,13 @@ nav .fa{
   
 }
 .footer h4{
+  color: #D1C8C5;
   margin-bottom: 15px;
   margin-top: 20px;
   font-weight: 600;
 }
 .footer p{
-  color:rgb(29, 29, 29);
+  color:#fff;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -163,7 +164,6 @@ nav .fa{
   padding: 18px 0;
 }
 .column{
-  background-color: #a6cfd2;
   width: 100%;
   padding: 2%;
   margin-bottom: 10px;
@@ -231,6 +231,5 @@ nav .fa{
 .end img{
   height: 100vh;
   width: 100%;
-  
 }
 }
