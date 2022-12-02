@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /** header **/
-.sub-header{
+.header{
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/tavern.jpg);
