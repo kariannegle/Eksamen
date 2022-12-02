@@ -106,12 +106,10 @@ nav .fa{
   padding: 10px;
 }
 
-.photographer1{
+.phtographer1{
   position: absolute;
   text-align: right;
   right: 0px;
-  font-size: 3px;
-  color: white;
 }
 
 .photographer2{
