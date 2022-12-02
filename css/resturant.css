@@ -97,7 +97,7 @@ nav .fa{
 }
 .food{
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0; 
 }
 .food h3{
   font-size: 20px;
@@ -105,6 +105,7 @@ nav .fa{
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  
 }
 .food-course h2{
   margin: 20px;
@@ -125,35 +126,7 @@ nav .fa{
   line-height: 22px;
 }
 
-.drink{
-  text-align: center;
-  margin: 10px 0;
-}
-.drink h3{
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Playfair Display', serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.drink h2{
-  margin: 20px;
-  font-family: 'Playfair Display', serif;
-  font-size: 30px;
-  font-weight: 300px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-.drink p{
-  color:rgb(29, 29, 29);
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
-}
+
 /** menu end**/
 
 /** scroll button **/
