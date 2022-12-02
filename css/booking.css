@@ -197,6 +197,7 @@ nav .fa{
   margin-bottom: 15px;
   font-family: 'Poppins', serif;
   text-align: center;
+  color: #158e99;
 }
 
 /* column text */
@@ -205,12 +206,13 @@ nav .fa{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  color: #158e99;
 }
 
 /* column icons */
 .restaurant-info-col i{
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  color:#158e99;
   align-items: center;
 }
 div.row2{
