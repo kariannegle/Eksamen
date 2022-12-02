@@ -4,11 +4,12 @@
 *{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/foodbackgr.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -100,6 +101,7 @@ nav .fa{
   margin: 10px 0; 
 }
 .food h3{
+  margin-top: 40px;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Playfair Display', serif;
@@ -118,6 +120,7 @@ nav .fa{
   letter-spacing: 2px;
 }
 .food p{
+  margin-bottom: 20px;
   color:rgb(29, 29, 29);
   text-align: center;
   font-family: 'Poppins', sans-serif;
