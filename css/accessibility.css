@@ -98,9 +98,10 @@ nav .fa{
 .column{
   background-color: #a6cfd2;
   width: 100%;
-  padding: 4%;
+  padding: 2%;
   margin-bottom: 10px;
   text-align: center;
+  border-radius: 10px;
 }
 .column h4{
   margin-top:10px;
