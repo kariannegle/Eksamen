@@ -7,7 +7,7 @@
 .sub-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/tavern.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -232,11 +232,12 @@ div.text-above-col p{
 /* Slideshow container */
 /* Main code from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 .slideshow-container {
-  width: 80%;
+  width: 65%;
   height: auto;
   position: relative;
   margin: 0 auto;
   display: center;
+  margin-top: 5%;
 }
 
 .numbertext img{
@@ -328,7 +329,7 @@ div.text-above-col p{
 /*** Booking form ***/
 /*Main code from https://codepen.io/tutsplus/pen/wNaGjy*/
 div.bookingform-header{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 /* title */
