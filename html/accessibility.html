@@ -20,78 +20,72 @@
         <!-- icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-  <body>
-    <section class="header">
-      <nav>
-          <a href="index.html"><img src="/img/lojo.jpg"></a>
-          <div class="nav-links" id="navLinks">
-              <i class="fa fa-times" onclick="hideMenu()"></i>
-              <ul>
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="booking.html">BOOKING</a></li>
-                  <li><a href="resturant.html">MENUS</a></li>
-                  <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
-                  <li><a href="topical.html">TOPICAL PAGE</a></li>
-              </ul>
-          </div>
-          <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
-     <h1>ACCESSIBILITY PAGE</h1>
-      </div>
-  </section>
+    <body>
+        <!--header start-->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="/img/lojo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="booking.html">BOOKING</a></li>
+                        <li><a href="resturant.html">MENUS</a></li>
+                        <li><a href="accessibility.html">ACCESSIBILITY PAGE</a></li>
+                        <li><a href="topical.html">TOPICAL PAGE</a></li>
+                    </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ACCESSIBILITY PAGE</h1>
+                </div>
+        </section>¨
+        <!--header end-->
   
-<!-- footer -->
-<section class="footer"> 
-    <h4>About Us</h4> 
-    <p>Lujo juno has been in business for generations, and we are always happy to serve and give our customers the best experience. As a multi-cuisine restaurant we are always open to develop and get inspired. We opened our doors for the first time in 1995, and since then we have opened several restaurants in every corner of the world.
-    </p>
-<div class="row-footer">
-    <div class="column">
-        <div class="hours">
-            <h4>Hours</h4>
-            <p>Restaurant hours: 11-22 <br>
-                Drinking hours: 12-02</p>
-        </div>
-    </div>  
-    
-    
-    <div class="column">
-        <div class="hours">
-            <h4>Opening days</h4>
-            <p>Weekday open between 12:00-22.00</p>
-            <p>Extended opening hours 12-02  <br> *by booking a venue</p>
-        </div>
-    </div>
-</div>
+        <!-- footer -->
+        <section class="footer"> 
+            <h4>About Us</h4> 
+            <p>Lujo juno has been in business for generations, and we are always happy to serve and give our customers the best experience. As a multi-cuisine restaurant we are always open to develop and get inspired. We opened our doors for the first time in 1995, and since then we have opened several restaurants in every corner of the world.</p>
+            <div class="row-footer">
+                <div class="column">
+                    <div class="hours">
+                        <h4>Hours</h4>
+                        <p>Restaurant hours: 11-22 <br>
+                           Drinking hours: 12-02</p>
+                    </div>
+                </div>  
 
-        <div class="icons">
-          <i class="fa fa-facebook-square"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-instagram"></i>
-          <i class="fa fa-envelope"></i>
-          <i class="fa fa-phone"></i>
-      </div>
-      <p> Copyright © 2022 by Data1200 Gruppe 46. All rights reserved.</p>
+                <div class="column">
+                    <div class="hours">
+                        <h4>Opening days</h4>
+                        <p>Weekday open between 12:00-22.00</p>
+                        <p>Extended opening hours 12-02 <br> 
+                           *by booking a venue</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fa fa-phone"></i>
+            </div>
+            <p> Copyright © 2022 by Data1200 Gruppe 46. All rights reserved.</p>      
+        </section>
+        <!--footer end-->
+
+        <!-- javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+            navLinks.style.right = "0";
+            }
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+            }
+        </script>
         
-    
-
-       
- </section>
-
-
-
-
- <!-- javascript for toggle menu-->
- <script>
-
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
-
-</script>
-        </body> 
+    </body> 
     
