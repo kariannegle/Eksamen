@@ -106,6 +106,24 @@ nav .fa{
   padding: 10px;
 }
 
+.photographer2{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 13px;
+  margin: 0px;
+  color:white;
+}
+
+.photographer3{
+  position: absolute;
+  text-align: right;
+  right: 0px;
+
+}
+
+
+
 /* column */
 .about-col{
   flex-basis: 41%;

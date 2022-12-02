@@ -69,6 +69,18 @@ nav img{
   transform: translate(-50%,-50%);
   text-align: center;
 }
+
+.photographer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: -250px;
+  color:grey
+
+}
+
 .text-box h1{
   font-family: 'Playfair Display', serif;
   font-size: 62px;
