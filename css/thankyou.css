@@ -113,6 +113,7 @@
 
 
   /** footer **/
+
 .footer {
     width: 100%;
     text-align: center;
@@ -131,6 +132,19 @@
     font-weight: 300;
     line-height: 22px;
   }
+
+  .column{
+    background-color: #a6cfd2;
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .column h4{
+    margin-top:10px;
+  }
+
+  
   .icons .fa {
     color: #7ab4b9;
     margin: 0 13px;
