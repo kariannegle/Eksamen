@@ -134,6 +134,15 @@ nav .fa{
   right: 0px;
 }
 
+.photographer6{
+  position: absolute;
+  text-align: right;
+  right: 0px;
+}
+
+.photographer6 p{
+  color: rgba(255, 255, 255, 0.31);
+}
 
 
 /* column */
