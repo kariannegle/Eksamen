@@ -65,13 +65,15 @@ nav .fa{
   display: none;
 }
 
+/** footer **/
 .footer{
   margin-top: 150px;
   width: 100%;
   padding: 100px 15%;
   background: #7ab4b9;
-  color: #fff;
+  color:rgb(0, 0, 0);;
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   display: flex;
 }
 .footer div {
@@ -81,14 +83,21 @@ nav .fa{
   flex-grow: 2;
 }
 .footer div h3{
-  font-weight: 300;
   margin-bottom: 30px;
+  font-weight: 400;
+}
+.footer div p{
+  font-size: 14px;
 }
 .col-1 a{
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 0, 0);;
   margin-bottom: 10px;
+}
+.col-1 a:hover{
+  color: #fff;
+  transition: 0.5s;
 }
 form input{
   width: 400px;
@@ -102,8 +111,8 @@ form input{
 }
 form button{
   background: transparent;
-  border: 2px solid #fff;
-  color:#fff;
+  border: 2px solid rgb(0, 0, 0);;
+  color: rgb(0, 0, 0);
   border-radius: 30px;
   padding: 10px 30px;
   font-size: 15px;
@@ -116,11 +125,22 @@ form button{
   font-size: 22px;
   margin: 10px;
   cursor: pointer;
-
+}
+.icons i:hover{
+  color: #fff;
+  transition: 00.5s;
 }
 
-
-
+/**footer end**/
+/** copyright **/
+.copyright{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #7ab4b9;
+  padding-bottom: 20px;
+}
 
 /** media query **/
 @media (max-width: 800px) 
@@ -156,7 +176,18 @@ form button{
   .nav-links ul{
   padding: 30px;
   }
-  
+  /** footer**/
+  .footer{
+      flex-direction: column;
+    }
+  .footer div h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
+  .copyright{
+    flex-direction: column;
+  }
+  }
+  
   
   
