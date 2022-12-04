@@ -157,11 +157,10 @@ nav .fa{
   margin: 0 auto;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  
 }
 .footer h4{
   margin-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-weight: 600;
 }
 .footer p{
@@ -170,6 +169,7 @@ nav .fa{
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
+  margin-bottom: 20px;
 }
 .icons .fa {
   color: #7ab4b9;
