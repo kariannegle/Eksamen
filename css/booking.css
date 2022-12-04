@@ -5,7 +5,7 @@
 }
 /** header **/
 .header{
-  height: 50vh;
+  height: 51vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/tavern.jpg);
   /* Bilde hentet fra https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/*/
@@ -142,7 +142,9 @@ nav .fa{
 
 .photographer6 p{
   color: rgba(255, 255, 255, 0.31);
+  font-family: 'Poppins', sans-serif;
 }
+
 
 
 /* column */
