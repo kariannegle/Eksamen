@@ -88,6 +88,17 @@ nav .fa{
   background: #6590b8;
   transition: 1s;
 }
+.photographer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  color:gray;
+}
 /** header end **/
 
 /**text**/
@@ -115,18 +126,6 @@ nav .fa{
   margin: 20px 400px 20px;
   padding-bottom: 20px;
 }
-
-.photographer{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  font-size: 16px;
-  margin: 0px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  font-family: 'Poppins', sans-serif;
-  color:gray;
-}
 .a:link{
   color: #fff;
 }
@@ -145,10 +144,6 @@ nav .fa{
   text-align: center;
 }
 /**text end**/
-
-
-
-
 
 /** footer **/
 .footer{
