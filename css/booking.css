@@ -107,47 +107,6 @@ nav .fa{
   padding: 10px;
 }
 
-.phtographer1{
-  position: absolute;
-  text-align: right;
-  right: 0px;
-}
-
-.photographer2{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  font-size: 13px;
-  margin: 0px;
-  color:white;
-}
-
-.photographer3{
-  position: absolute;
-  text-align: right;
-  right: 0px;
-}
-
-.photographer4{
-  position: absolute;
-  text-align: right;
-  right: 0px;
-}
-
-.photographer6{
-  position: absolute;
-  text-align: right;
-  right: 0px;
-  bottom: 15px;
-  margin-right: 10px;
-  
-}
-
-.photographer6 p{
-  color: rgba(255, 255, 255, 0.31);
-  font-family: 'Poppins', sans-serif;
-}
-
 
 
 
