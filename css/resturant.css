@@ -154,8 +154,6 @@ nav .fa{
 }
 /** scroll button end **/
 
-
-/** footer **/
 /** footer **/
 .footer{
   margin-top: 150px;
@@ -164,7 +162,6 @@ nav .fa{
   background: #7ab4b9;
   color:rgb(0, 0, 0);;
   font-family: 'Poppins', sans-serif;
-  
 }
 .footer h4{
   margin-bottom: 15px;
@@ -217,8 +214,8 @@ form button{
   color: #fff;
   transition: 00.5s;
 }
-
 /**footer end**/
+
 /** copyright **/
 .copyright{
   text-align: center;
