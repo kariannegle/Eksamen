@@ -386,7 +386,7 @@ div.elem-group-end {
 /* the text above the boxes */
 p.booking-text {
   font-size: 22px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* input text when typing in answers in question boxes */
@@ -395,7 +395,7 @@ input, select, textarea {
   border: 2px solid #777;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: "Triong", serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   padding: 12px;
   
