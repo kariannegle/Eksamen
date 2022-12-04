@@ -129,16 +129,12 @@ nav .fa{
   border-radius: 10px;
 
 }
-
 /* column text */
 .about-col p{
   padding: 0;
   font-family: 'Poppins', sans-serif;
   text-align: left;
 }
-
-
-
 /* row */
 .row {
   margin-top: 5%;
@@ -506,7 +502,6 @@ form button{
   color: #fff;
   transition: 00.5s;
 }
-
 /**footer end**/
 /** copyright **/
 .copyright{
