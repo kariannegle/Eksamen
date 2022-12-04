@@ -120,9 +120,10 @@ nav .fa{
   position: absolute;
   bottom: 0px;
   right: 0px;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   font-family: 'Poppins', sans-serif;
   color:gray;
 }
