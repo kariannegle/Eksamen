@@ -12,6 +12,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
+  /* Picture taken by Tom from Pixabay https://pixabay.com/no/photos/kafe-bygning-hellas-%c3%b8ya-karpathos-3537801/ */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
