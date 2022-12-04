@@ -251,9 +251,17 @@ nav .fa{
 .nav-links ul{
   padding: 30px;
 }
-
+.sub-header h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 150px;
+}
 .page-content{
   padding: 10px 100px 10px;
+}
+.title h2{
+  font-size: 2.5em;
 }
 .sub-text p{
   margin-bottom: 20px;
