@@ -147,7 +147,6 @@ nav .fa{
   margin-top: 150px;
   width: 100%;
   padding: 100px 15%;
-  background: #7ab4b9;
   color:rgb(0, 0, 0);;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -213,7 +212,6 @@ form button{
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  background-color: #7ab4b9;
   padding-bottom: 20px;
 }
 /**footer end**/
