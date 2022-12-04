@@ -78,17 +78,7 @@ nav img{
   font-size: 14px;
   color:#fff
 }
-.photographer{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  font-size: 18px;
-  margin: 0px;
-  margin-bottom: -250px;
-}
-.photographer p{
-  color: rgba(255, 255, 255, 0.31);
-}
+
 /** hero-btn **/
 .hero-btn{
   display: inline-block;
@@ -218,6 +208,9 @@ h3{
 
 
 /** call to action **/
+
+
+/**Image retrieved from https://pixabay.com/no/photos/taverna-crete-hav-ferie-bl%c3%a5-vann-1362960/ **/
 .cta{ 
   margin: 100px auto;
   width: 80%;
@@ -228,7 +221,9 @@ h3{
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
+
 }
+
 .cta h1{
   color:#fff;
   margin-bottom: 40px;

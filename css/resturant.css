@@ -4,6 +4,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/**Image retrieved from: https://pixabay.com/no/photos/tallerken-mat-forretter-m%c3%a5ltid-2009590/ **/
 .sub-header{
   height: 50vh;
   width: 100%;
