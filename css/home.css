@@ -200,10 +200,8 @@ h3{
 }
 .facil-col img{
   width: 30vw;
-  
   border-radius: 10px;
   height: 18vw;
-  
   border-radius: 10px;
 }
 .facil-col p{
@@ -382,17 +380,10 @@ nav .fa{
   flex-direction: column;
 }
 .footer div h3{
-margin-top: 25px;
-margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 .copyright{
-flex-direction: column;
+  flex-direction: column;
 }
-}
-
-@media (max-width: 1280px){
-  .text-box h1{
-    font-size: 30px;
-  }
-
 }
