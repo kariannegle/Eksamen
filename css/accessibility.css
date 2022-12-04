@@ -66,7 +66,7 @@ nav .fa{
 }
 
 /* main text */ 
-div.main-text{
+.main-text{
   margin-top: 8%;
   text-align: center;
   font-size: 18px;
@@ -173,12 +173,10 @@ form button{
 /** media query **/
 @media (max-width: 800px) 
   {
-  .sub-header h1{
-  font-family: 'Playfair Display', serif;
+  .header h1{
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 20px;
   }
   .nav-links ul li{
   display: block;
@@ -203,6 +201,11 @@ form button{
   }
   .nav-links ul{
   padding: 30px;
+  }
+
+  /** main text **/
+  .main-text{
+    
   }
   /** footer**/
   .footer{
