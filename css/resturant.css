@@ -158,8 +158,10 @@ nav .fa{
   background: #7ab4b9;
   color:rgb(0, 0, 0);;
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  display: flex;
 }
-.footer div{
+.footer div {
   text-align: center;
 }
 .col-2{
@@ -171,8 +173,6 @@ nav .fa{
 }
 .footer div p{
   font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
 }
 .col-1 a{
   display: block;
@@ -215,6 +215,8 @@ form button{
   color: #fff;
   transition: 00.5s;
 }
+
+/**footer end**/
 /** copyright **/
 .copyright{
   text-align: center;
@@ -224,7 +226,6 @@ form button{
   background-color: #7ab4b9;
   padding-bottom: 20px;
 }
-/**footer end**/
 
 /** media query **/
 @media only screen and (max-width: 800px) 
