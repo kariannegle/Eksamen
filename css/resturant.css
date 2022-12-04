@@ -4,7 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-.sub-header{
+.header{
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/foodbackgr.jpg);
@@ -16,7 +16,7 @@
   text-align: center;
   color: #fff;
 }
-.sub-header h1{
+.header h1{
   margin-top: 50px;
   text-align: center;
   font-family: 'Playfair Display', serif;
