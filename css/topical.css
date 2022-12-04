@@ -116,7 +116,7 @@ nav .fa{
   padding-bottom: 20px;
 }
 
-.Beach-picture{
+.photographer{
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -126,17 +126,6 @@ nav .fa{
   margin-right: 10px;
   font-family: 'Poppins', sans-serif;
   color:gray;
-}
-
-.Earth-picture{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  font-size: 18px;
-  margin: 0px;
-  margin-bottom: 8px;
-  font-family: 'Poppins', sans-serif;
-  color:grey;
 }
 .a:link{
   color: #fff;
