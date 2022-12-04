@@ -78,14 +78,6 @@ nav .fa{
   border-radius: 25px;
 }
 
-.photographer{
-  position: absolute;
-  text-align: right;
-  right: 0px;
-  color: rgba(255, 255, 255, 0.31);
-  font-family:'Poppins', sans-serif;
-}
-
 .menu h2 { 
   margin: 20px;
   font-family: 'Playfair Display', serif;
