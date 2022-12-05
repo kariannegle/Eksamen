@@ -142,6 +142,7 @@
       <span class="dot" onclick="currentSlide(4)"></span> 
       </div>
     
+    
       <!-- javascript for slideshow -->
       <script>
         let slideIndex = 1;
@@ -173,7 +174,7 @@
       </script>
       <!-- javascript for slideshow end-->
       <!-- slideshow end -->
-
+    </section>
 
       <!-- Code from https://codepen.io/tutsplus/pen/wNaGjy -->
     <form action="reservation.php" method="post">
@@ -186,46 +187,46 @@
           <label for="name">
             <p class="booking-text">Name</p>
           </label>
-          <input type="text" id="name" name="visitor_name" placeholder="Your Name" >
+          <input type="text" id="name" name="visitor_name" placeholder="Your Name" class="form" >
         </div>
         <div class="elem-group">
           <label for="email">
             <p class="booking-text">E-mail</p>
           </label>
-          <input type="email" id="email" name="visitor_email" placeholder="your@email.com">
+          <input type="email" id="email" name="visitor_email" placeholder="your@email.com" class="form">
         </div>
         <div class="elem-group">
           <label for="phone">
             <p class="booking-text">Phonenumber</p>
           </label>
-          <input type="tel" id="phone" name="visitor_phone" placeholder="123456789">
+          <input type="tel" id="phone" name="visitor_phone" placeholder="123456789" class="form">
         </div>
     
         <div class="elem-group">
           <label for="adult">
             <p class="booking-text">How many people (0 - 100)</p>
           </label>
-          <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100">
+          <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" class="form">
         </div>
     
         <div class="elem-group">
           <label for="checkin-date">
             <p class="booking-text">Pick a date</p>
           </label>
-          <input type="date" id="checkin-date" name="checkin" required>
+          <input type="date" id="checkin-date" name="checkin" required class="form">
         </div>
         <div class="elem-group">
           <label for="checkout-date">
             <p class="booking-text">Time</p>
           </label>
-        <input type="time" id="time" name="checkout" required>
+        <input type="time" id="time" name="checkout" required class="form">
         </div>
         <div class="elem-group">
           <label for="room-selection">
             <p class="booking-text">What type of event is it?</p>
           </label>
-          <select id="room-selection" name="room_preference" required>
-            <option value="">Choose type of event from the List</option>
+          <select id="room-selection" name="room_preference" required class="form">
+            <option value="">Choose event</option>
             <option value="connecting">Birthday</option>
             <option value="adjoining">Party</option>
             <option value="adjacent">Wedding</option>
@@ -237,8 +238,8 @@
       <label for="room-selection">
         <p class="booking-text">Restaurant options</p>
       </label>
-      <select id="room-selection" name="room_preference" required>
-          <option value="">Choose an option from the List</option>
+      <select id="room-selection" name="room_preference" required class="form">
+          <option value="">Choose option</option>
           <option value="connecting">Event without restaurant</option>
           <option value="adjoining">Event included restaurant</option>
       </select>
@@ -248,18 +249,17 @@
       <label for="message">
         <p class="booking-text">More information</p>
       </label>
-      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." class="form"></textarea>
     </div>
   </div>
   </form>
   <!-- booking form end -->
 
   <!-- button -->
-      <div class="button">
-        <form action="thankyou.html">
-        <button type="submit">Book</button>
-        </form>
-      </div>
+  <form action="thankyou.html">
+    <button type="submit" class="btn">BOOK</button>
+  </form>
+     
       <!-- button -->
 
       <!-- footer -->

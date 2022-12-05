@@ -106,10 +106,6 @@ nav .fa{
   line-height: 22px;
   padding: 10px;
 }
-
-
-
-
 /* column */
 .about-col{
   flex-basis: 41%;
@@ -213,15 +209,10 @@ div.text-above-col h3{
 div.text-above-col p{
   font-size: 17px;
 }
-
-
 .mySlides {
   display: block;
   height: 65vh;
 }
-
-
-
 .mySlides img {
   border-radius: 10px;
   width: 100%;
@@ -241,7 +232,6 @@ div.text-above-col p{
   display: center;
   margin-top: 5%;
 }
-
 .numbertext img{
   width: 30vw;
   height: 18vw;
@@ -255,9 +245,10 @@ div.text-above-col p{
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: rgb(255, 255, 255);
+  background-color: #717171;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -326,7 +317,6 @@ div.text-above-col p{
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
 
 /*** Booking form ***/
 /*Main code from https://codepen.io/tutsplus/pen/wNaGjy*/
@@ -401,6 +391,12 @@ input, select, textarea {
   
 }
 
+.form{
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+}
+
 textarea {
   height: 250px;
 }
@@ -408,23 +404,22 @@ textarea {
 /*** Booking form end***/
 
 /*** Button***/
-div.button {
+
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
-button {
+  margin: 20px auto;
   height: 70px;
   width: 200px;
+
   background-color: rgb(247, 100, 90);
   border: none;
-  color: white;
-  font-size: 1.25em;
-  font-family: "Triong", serif;
   border-radius: 4px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.7;
@@ -514,6 +509,11 @@ form button{
 }
 /** media query **/
 @media (max-width: 800px) {
+
+.body{
+  width:90%
+}
+
 .about-col p,h2{
   text-align: center;
 }
@@ -575,6 +575,17 @@ div.elem-group-end{
 .row{ 
   flex-direction: column;
 }
+.form{
+  font-size: 14px;
+}
+
+p.booking-text{
+  font-size: 14px;
+}
+
+.btn{
+  font-size: 14px
+}
 /** footer**/
 .footer{
   flex-direction: column;
@@ -586,4 +597,5 @@ div.elem-group-end{
 .copyright{
   flex-direction: column;
 }
+
 }

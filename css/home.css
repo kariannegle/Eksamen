@@ -128,8 +128,6 @@ nav .fa{
   line-height: 22px;
   padding: 10px;
 }
-
-
 .row {
   margin-top: 5%;
   display: flex;
@@ -384,4 +382,5 @@ nav .fa{
 .copyright{
   flex-direction: column;
 }
+
 }
