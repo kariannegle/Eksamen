@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/**header start**/
 .header{
   height: 50vh;
   width: 100%;
@@ -64,6 +66,7 @@ nav img{
 nav .fa{
   display: none;
 }
+/**header end**/
 
 /* main text */ 
 .main-text{
@@ -73,7 +76,15 @@ nav .fa{
   text-align: center;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: 5%;
+
 }
+
+.main-text p{
+  width: fit-content;
+  margin: 5%;
+}
+
 .main-text img{
   border-radius: 10px;
   padding: 20px;
@@ -82,6 +93,10 @@ nav .fa{
   align-items: center;
   padding-right: 20%;
   padding-left: 20%;
+}
+
+div.references{
+  margin: 5%;
 }
 
 /** footer **/
@@ -149,8 +164,8 @@ form button{
   color: #fff;
   transition: 00.5s;
 }
-
 /**footer end**/
+
 /** copyright **/
 .copyright{
   text-align: center;
@@ -196,14 +211,8 @@ form button{
 
   /** main text **/
   .main-text{
-    width: 80%;
-    padding: 2px 30px;
-    margin: auto;
-    text-align: center;
-    }
-  .main-text img{
-    width: 100%;
-  }   
+    
+  }
   /** footer**/
   .footer{
     flex-direction: column;
