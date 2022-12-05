@@ -242,8 +242,7 @@ div.text-above-col p{
   cursor: pointer;
   position: absolute;
   top: 50%;
-  height: 10rem;
-  width: 10rem;
+  width: auto;
   padding: 16px;
   margin-top: -22px;
   color: rgb(255, 255, 255);
