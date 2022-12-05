@@ -26,7 +26,7 @@
     <section class="header">
       <!-- nav-->
       <nav>
-          <a href="index.html"><img src="/img/lojo.jpg"></a>
+          <a href="index.html"><img src="/img/lojo.jpg" alt="Lujo Juno logo"></a>
           <div class="nav-links" id="navLinks">
               <i class="fa fa-times" onclick="hideMenu()"></i>
               <ul>
@@ -131,17 +131,17 @@
         <!--https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/-->
         <div class="text">Inside the restaurant</div>
       </div>
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
       </div>
       <br>
       <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-      <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
       </div>
-    
+    </section>
     
       <!-- javascript for slideshow -->
       <script>
@@ -174,7 +174,7 @@
       </script>
       <!-- javascript for slideshow end-->
       <!-- slideshow end -->
-    </section>
+    
 
       <!-- Code from https://codepen.io/tutsplus/pen/wNaGjy -->
     <form action="reservation.php" method="post">
@@ -201,14 +201,12 @@
           </label>
           <input type="tel" id="phone" name="visitor_phone" placeholder="123456789" class="form">
         </div>
-    
         <div class="elem-group">
           <label for="adult">
             <p class="booking-text">How many people (0 - 100)</p>
           </label>
           <input type="number" id="adult" name="total_adults" placeholder="1" min="1" max="100" class="form">
         </div>
-    
         <div class="elem-group">
           <label for="checkin-date">
             <p class="booking-text">Pick a date</p>
