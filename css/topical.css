@@ -88,17 +88,7 @@ nav .fa{
   background: #6590b8;
   transition: 1s;
 }
-.photographer{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  font-size: 16px;
-  margin: 0px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  font-family: 'Poppins', sans-serif;
-  color:gray;
-}
+
 /** header end **/
 
 /**text**/
@@ -219,13 +209,6 @@ form button{
 /** media query **/
 @media (max-width: 800px) {
 /**header**/
-.text-box h1{
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
 .nav-links ul li{
   display: block;
 }
@@ -251,7 +234,7 @@ nav .fa{
   padding: 30px;
 }
 .header h1{
-  font-size: 25px;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 150px;
@@ -271,7 +254,7 @@ nav .fa{
 /**text end**/
 
 /** footer**/
- .footer{
+.footer{
   flex-direction: column;
 }
 .footer div h3{
