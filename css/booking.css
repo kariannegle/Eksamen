@@ -7,7 +7,7 @@
 .header{
   height: 51vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/tavern.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//img/tavern.jpg);
   /* Image retrieved from https://pixabay.com/no/photos/servering-vakker-interi%c3%b8r-410832/*/
   background-position: center;
   background-size: cover;
