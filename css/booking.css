@@ -522,7 +522,7 @@ form button{
 }
 .sub-header h1{
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
@@ -572,8 +572,8 @@ div.elem-group-end{
 .row{ 
   flex-direction: column;
 }
- /** footer**/
- .footer{
+/** footer**/
+.footer{
   flex-direction: column;
 }
 .footer div h3{
