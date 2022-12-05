@@ -28,6 +28,7 @@
   letter-spacing: 2px;
 }
 
+/**nav**/
 nav{
   display: flex;
   padding: 1% 6%;
@@ -68,6 +69,7 @@ nav img{
 nav .fa{
   display: none;
 }
+/** nav end **/
 
 /** meny **/ 
 .menu{
