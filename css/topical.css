@@ -254,7 +254,7 @@ nav .fa{
 /**text end**/
 
 /** footer**/
- .footer{
+.footer{
   flex-direction: column;
 }
 .footer div h3{
