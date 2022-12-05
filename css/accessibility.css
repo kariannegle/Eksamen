@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/**header start**/
 .header{
   height: 50vh;
   width: 100%;
@@ -64,12 +66,15 @@ nav img{
 nav .fa{
   display: none;
 }
+/**header end**/
 
 /* main text */ 
 .main-text{
-  margin-top: 8%;
+  width: 65%;
+  padding: 2px 100px;
+  margin: 20px auto 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 5%;
 
@@ -82,6 +87,7 @@ nav .fa{
 
 .main-text img{
   border-radius: 10px;
+  padding: 20px;
   width: 100%;
   max-height: 50%;
   align-items: center;
@@ -158,8 +164,8 @@ form button{
   color: #fff;
   transition: 00.5s;
 }
-
 /**footer end**/
+
 /** copyright **/
 .copyright{
   text-align: center;
@@ -174,33 +180,33 @@ form button{
 @media (max-width: 800px) 
   {
   .header h1{
-  font-size: 20px;
-  text-align: center;
-  padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
   }
   .nav-links ul li{
-  display: block;
+    display: block;
   }
   .nav-links{
-  position: absolute;
-  background: #7ab4b9;
-  height: 100vh;
-  width: 200px;
-  top: 0;
-  right: -200px;
-  text-align: left;
-  z-index: 2;
-  transition: 1s;
+    position: absolute;
+    background: #7ab4b9;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
   }
   nav .fa{
-  display: block;
-  color: #fff;
-  margin: 10px;
-  font-size: 22px;
-  cursor: pointer;
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
   }
   .nav-links ul{
-  padding: 30px;
+    padding: 30px;
   }
 
   /** main text **/
@@ -209,7 +215,7 @@ form button{
   }
   /** footer**/
   .footer{
-      flex-direction: column;
+    flex-direction: column;
     }
   .footer div h3{
     margin-top: 25px;

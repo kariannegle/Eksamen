@@ -513,9 +513,7 @@ form button{
   padding-bottom: 20px;
 }
 /** media query **/
-@media (max-width: 800px) 
-{
-
+@media (max-width: 800px) {
 .about-col p,h2{
   text-align: center;
 }
@@ -579,10 +577,10 @@ div.elem-group-end{
   flex-direction: column;
 }
 .footer div h3{
-margin-top: 25px;
-margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 .copyright{
-flex-direction: column;
+  flex-direction: column;
 }
 }
