@@ -355,8 +355,8 @@ div.bookingform-header p{
 /* the boxes with the different fill in questions */
 div.elem-group {
   margin: 20px 0;
-  width: 450px;
   margin: auto;
+  width: 450px;
   padding: 20px;
   background-color: #a6cfd2;
 }
@@ -520,7 +520,7 @@ form button{
 .about-col img{
   margin-bottom: 20px;
 }
-.sub-header h1{
+.header h1{
   font-family: 'Playfair Display', serif;
   font-size: 50px;
   text-transform: uppercase;
@@ -552,7 +552,7 @@ nav .fa{
   padding: 30px;
 }
 .slideshow-container{
-  width: 90%;
+  width: 80%;
   height: 340px; 
 }
 .slideshow-container img{
@@ -561,13 +561,16 @@ nav .fa{
 
 /** bookingform **/
 div.elem-group{
-  width: auto;
+  width: 80%;
 }
 div.elem-group-start{
-  width: auto;
+  width: 80%;
 }
 div.elem-group-end{
-  width: auto;
+  width: 80%;
+}
+.input{
+  width: 80%;
 }
 .row{ 
   flex-direction: column;
