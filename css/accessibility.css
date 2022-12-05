@@ -207,10 +207,14 @@ form button{
   .nav-links ul{
     padding: 30px;
   }
-
   /** main text **/
   .main-text{
-   width: 80%; 
+    text-align: left;
+    width: 90%;
+    padding: 30px; 
+  }
+  .main-text p{
+    flex-direction: column;
   }
   /** footer**/
   .footer{
