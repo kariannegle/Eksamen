@@ -520,8 +520,12 @@ form button{
 .about-col img{
   margin-bottom: 20px;
 }
-.header h1{
-  font-size: 30px;
+.sub-header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 .nav-links ul li{
   display: block;
