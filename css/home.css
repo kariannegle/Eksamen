@@ -8,17 +8,20 @@
   width: 90%;
   margin: 0 auto;
 }
+/**Header**/
 .header{
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/backgr.jpg);
-  /* Picture taken by Tom from Pixabay https://pixabay.com/no/photos/kafe-bygning-hellas-%c3%b8ya-karpathos-3537801/ */
+  /* Picture taken by Tom from: Pixabay https://pixabay.com/no/photos/kafe-bygning-hellas-%c3%b8ya-karpathos-3537801/ */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
 }
+
+/**nav**/
 nav{
   display: flex;
   padding: 1% 6%;
@@ -126,6 +129,8 @@ nav .fa{
   line-height: 22px;
   padding: 10px;
 }
+
+
 .row {
   margin-top: 5%;
   display: flex;
@@ -162,7 +167,6 @@ h3{
 /** offers end **/
 
 /** facilities **/
-
 .facilities{ 
   width: 80%;
   margin: auto;
@@ -206,7 +210,7 @@ h3{
   text-align: left;
   font-family: 'Playfair Display', serif;
 }
-
+/**facilites end**/
 
 /** call to action **/
 
